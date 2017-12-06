@@ -1,0 +1,25 @@
+#! /bin/sh
+set -e
+
+. /usr/share/debconf/confmodule
+
+# Can be preseed to true to force cdrom entries to be disabled
+db_get apt-setup/disable-cdrom-entries
+disable_cdrom_entries="$RET"
+
+# Always disable CD image in sources.list
+if ([ -e /cdrom/.disk/base_installable ] || [ "$OVERRIDE_BASE_INSTALLABLE" ]); then
+	disable_cdrom_entries="true"
+fi
+
+# Comment out the cdrom entries and update APT's cache
+if [ "$disable_cdrom_entries" = "true" ]; then
+	logger -t finish-install "Disabling CDROM entries in sources.list"
+	sed -i "/^deb cdrom:/s/^/#/" /target/etc/apt/sources.list
+fi
+
+# Remove locale source
+if ([ -e /target/etc/apt/sources.list.d/locale.list ]); then
+    logger -t finish-install "Removing linuxmint locale source"
+    rm -rf /target/etc/apt/sources.list.d/locale.list
+fi

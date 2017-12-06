@@ -1,0 +1,26 @@
+# Berkas Paket
+ABOUT-NLS
+aclocal.m4
+autom4te.cache
+build
+build-stamp
+config.h
+config.h.in
+config.log
+config.status
+configure
+configure-stamp
+debian/debhelper-build-stamp
+debian/files
+debian/*.log
+debian/*.substvars
+install-stamp
+libtool
+m4
+MakeFile
+MakeFile.in
+stamp-h1
+
+# Directory Paket
+debian/xenta-x-theme
+#gitpush

@@ -1,0 +1,3 @@
+load-install-cd    usr/bin
+finish-install.d   usr/lib
+generators/40cdrom usr/lib/apt-setup/generators
