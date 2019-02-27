@@ -1,0 +1,74 @@
+Format: 1.8
+Date: Thu, 07 Dec 2017 00:28:15 +0700
+Source: ubiquity
+Binary: ubiquity ubiquity-ubuntu-artwork ubiquity-frontend-gtk ubiquity-frontend-kde ubiquity-frontend-debconf oem-config oem-config-gtk oem-config-kde oem-config-debconf oem-config-check oem-config-udeb oem-config-remaster
+Architecture: source all i386
+Version: 3.21.63
+Distribution: arok
+Urgency: medium
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Changed-By: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Description:
+ oem-config - Perform end-user configuration after initial OEM installation
+ oem-config-check - enter OEM mode if requested (udeb)
+ oem-config-debconf - debconf frontend for end-user post-OEM-install configuration
+ oem-config-gtk - GTK+ frontend for end-user post-OEM-install configuration
+ oem-config-kde - KDE frontend for end-user post-OEM-install configuration
+ oem-config-remaster - Remaster a CD with additional oem-config functionality
+ oem-config-udeb - Prepare for OEM configuration (udeb)
+ ubiquity   - Xenta OS live CD installer
+ ubiquity-frontend-debconf - debconf frontend for the Ubiquity live installer
+ ubiquity-frontend-gtk - GTK+ frontend for Ubiquity live installer
+ ubiquity-frontend-kde - KDE frontend for Ubiquity live installer
+ ubiquity-ubuntu-artwork - Xenta OS artwork for Ubiquity live installer
+Changes:
+ ubiquity (3.21.63) arok; urgency=medium
+ .
+   * Memfork dari Linux Mint dan Membuat Loncatan Versi
+     Versi 3.21.63 = 2.21.63+linuxmint4 tetapi berbeda dengan
+     Informasi Distribusi diganti jadi Xenta OS
+Checksums-Sha1:
+ f48a481b1ff4daecdc5e90c30c7ac5e8c615452d 2564 ubiquity_3.21.63.dsc
+ 8ac9a71fe2c9669535d49e066489cb3953e026b9 6594984 ubiquity_3.21.63.tar.xz
+ 001abe234f9d605d35b551d15abea4569eecef13 1202 oem-config-check_3.21.63_all.udeb
+ 129b97aeb619a4c12914e54d3e91f236d3086cb2 172140 oem-config-debconf_3.21.63_all.deb
+ 98f380d342ac09bbc433d9bc225f2df701a2e483 175592 oem-config-gtk_3.21.63_all.deb
+ a915f490d49303c69144b79e340c861e034b9144 174370 oem-config-kde_3.21.63_all.deb
+ c6f4c24f74eec3096bbcd7ab8d8bdf8433cdd9c2 173076 oem-config-remaster_3.21.63_all.deb
+ b56bf9dae0120d2aeaae9939a6f0bcb839afa097 2276 oem-config-udeb_3.21.63_all.udeb
+ 861d38066fc4fa3d02b3fe929a6c98dfc3c0bbfd 179592 oem-config_3.21.63_all.deb
+ 6fdd9c8bba83a620f082adaad3a272e1f8b07e0c 616252 ubiquity-frontend-debconf_3.21.63_i386.deb
+ 455637a9c95602fdd76c91d6a072b48154f4063d 238802 ubiquity-frontend-gtk_3.21.63_i386.deb
+ 7ebb5300c26563de902b4379df7f57970717e61a 238468 ubiquity-frontend-kde_3.21.63_all.deb
+ 898148ad26ace11a3936f31173b5b4832cd9aa9a 691628 ubiquity-ubuntu-artwork_3.21.63_all.deb
+ 5874baa0c7c97e059be05a636a00b9e8d3e3d14b 4977854 ubiquity_3.21.63_i386.deb
+Checksums-Sha256:
+ 5c24d87eb7d0987d4e61d3033c2d67803f86730241eaa4f278b68a008d5018a2 2564 ubiquity_3.21.63.dsc
+ 07b70634c90e1ad791ac6b217ccb731f982310a67194412b690c50a94c51ec7a 6594984 ubiquity_3.21.63.tar.xz
+ 210d65397baae2a52807650693dfc58048dac426fc06c4d6309fe58a17ec7bd5 1202 oem-config-check_3.21.63_all.udeb
+ e3eb9447ab11373e43777dc82ea8a713fcdabf7bb3b11162c4214716755a44f9 172140 oem-config-debconf_3.21.63_all.deb
+ 73813cfcc6edc494bf5b981eafcadfa5a1380f4c52f1735111ca752810faea98 175592 oem-config-gtk_3.21.63_all.deb
+ 568d2c6ddf674d099fa5344084686c9fe4d71b5bc4781fcc13b2e82d53838ab8 174370 oem-config-kde_3.21.63_all.deb
+ 8ca0351bb0a492100bf14fe0e31b657b99c9ec3cb47cb6f023cc3fb3acd33141 173076 oem-config-remaster_3.21.63_all.deb
+ f4a931475e35bdc441fd8f71e63def404849ddfd74126921f5074d906fb1404d 2276 oem-config-udeb_3.21.63_all.udeb
+ fbafc8e82d55f9ce52951da186f3705cf43db6cfba8ce55c713019cfe51e9c2f 179592 oem-config_3.21.63_all.deb
+ c8a3379e61760aeaaaac194d0db2ced97f90d2d7898f03567cc09155cc071ab5 616252 ubiquity-frontend-debconf_3.21.63_i386.deb
+ 85bf200117d19ed4ea92a095738c984967c570dc00945ea6a1195623552d83f7 238802 ubiquity-frontend-gtk_3.21.63_i386.deb
+ 5461c3a947b9a84de7716532248d920c90da815a3dd2e7eb99f114f06cbe9a94 238468 ubiquity-frontend-kde_3.21.63_all.deb
+ aec3e3e5ce9496211fcbd367ce42f2d5efe79cc1a43d910ec54e0ca08ab5b517 691628 ubiquity-ubuntu-artwork_3.21.63_all.deb
+ 741cbed63c048e017672446616e8ce423c668f5bbb5845e50cc4695048f7b866 4977854 ubiquity_3.21.63_i386.deb
+Files:
+ a07c941ab52aca18069ee341b4ab7090 2564 admin optional ubiquity_3.21.63.dsc
+ e99018cfc95fa944415dfb5d57cafe46 6594984 admin optional ubiquity_3.21.63.tar.xz
+ 95f0804cf7286b49d07d32f5989bae1d 1202 debian-installer standard oem-config-check_3.21.63_all.udeb
+ bda3247dc9ab7e5440f617e7bc4bb697 172140 admin optional oem-config-debconf_3.21.63_all.deb
+ 245b4e6386590a20d7197c11d18b3b56 175592 admin optional oem-config-gtk_3.21.63_all.deb
+ 0172cc82af8855c09e0b76fc86d84d48 174370 admin optional oem-config-kde_3.21.63_all.deb
+ 560d06a416a16117f5e4399997a20db1 173076 admin optional oem-config-remaster_3.21.63_all.deb
+ 9e2629814c493db624604983e4dc5baf 2276 debian-installer optional oem-config-udeb_3.21.63_all.udeb
+ 5473be1bb03e59c0358ac6a86f119c2d 179592 admin optional oem-config_3.21.63_all.deb
+ 829f2adad29d48328cf6c362b6eb678b 616252 admin optional ubiquity-frontend-debconf_3.21.63_i386.deb
+ 31d958104269cfb9d76a500616ae8da0 238802 admin optional ubiquity-frontend-gtk_3.21.63_i386.deb
+ c3a888bc9e65991f8fed77576b21c0ca 238468 admin optional ubiquity-frontend-kde_3.21.63_all.deb
+ ad088263a7624a2bb73e39744d6ec820 691628 admin optional ubiquity-ubuntu-artwork_3.21.63_all.deb
+ 53f156187181cb377042d1c55cbf31bc 4977854 admin optional ubiquity_3.21.63_i386.deb
